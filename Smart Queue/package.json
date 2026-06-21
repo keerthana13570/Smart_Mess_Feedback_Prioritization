@@ -1,0 +1,11 @@
+{
+  "name": "smart-queue",
+  "private": true,
+  "description": "Wrapper scripts — SmartQueue lives in SmartQueue/",
+  "scripts": {
+    "start": "npm start --prefix SmartQueue/backend",
+    "backend": "npm start --prefix SmartQueue/backend",
+    "mobile": "npm --prefix SmartQueue/mobile run start -- --clear",
+    "dev:backend": "npm run dev --prefix SmartQueue/backend"
+  }
+}

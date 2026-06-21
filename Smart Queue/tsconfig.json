@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./SmartQueue/mobile/*"],
+      "@backend/*": ["./SmartQueue/backend/src/*"]      EXPO_PUBLIC_API_BASE_URL=http://10.249.184.130:8080
+    }
+  },
+  "include": ["SmartQueue/**/*.ts", "SmartQueue/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "build"]
+}
